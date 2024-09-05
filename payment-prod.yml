@@ -6,7 +6,7 @@ spring:
     name: payment
 
   datasource:
-    url: jdbc:mysql://payment-mysql:3307/payment?serverTimezone=UTC
+    url: jdbc:mysql://payment-mysql:3306/payment?serverTimezone=UTC
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: clio
     password: clio

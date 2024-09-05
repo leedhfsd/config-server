@@ -6,7 +6,7 @@ spring:
     name: store
 
   datasource:
-    url: jdbc:mysql://store-mysql:3308/store?serverTimezone=UTC
+    url: jdbc:mysql://store-mysql:3306/store?serverTimezone=UTC
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: clio
     password: clio
