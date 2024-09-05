@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: card
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/card?serverTimezone=UTC
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: clio
+    password: clio
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
